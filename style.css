@@ -1,0 +1,48 @@
+body
+{
+    font-family: comic Sans Ms;
+}
+
+h1 
+{
+    background-image: linear-gradient(to right, #5643c2, #6c43c4, #8043c5, #9242c6, #a342c6, #c835b2, 
+    #e32f9b, #f53584, #fd5755, #ed8030, #cea322, #a6c042);
+    color: white;
+    line-height: 2;
+    margin-top: 0;
+
+
+}
+
+p 
+{
+    background-color: beige;
+    width: 30%;
+    height: 40px;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#show_sketch
+{
+    float: right;
+    margin: 20px;
+}
+
+canvas 
+{
+    margin-top: 50px;
+    border-radius: 20px;
+    animation-name: kookie;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes kookie 
+{
+    from{box-shadow: 10px 10px 10px green}
+    50%{box-shadow: -10px -10px 10px rgb(115, 0, 128)}
+    75%{box-shadow: 10px -10px 10px rgb(238, 224, 20)}
+    to{box-shadow: -10px 10px 10px crimson}
+}
